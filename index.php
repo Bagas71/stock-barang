@@ -2,7 +2,7 @@
 require 'functions.php';
 
 // pagination
-$jumlahDataPerhalaman = 4;
+$jumlahDataPerhalaman = 10;
 $jumlahData = count(query("SELECT tabel_barang.id, tabel_barang.nama_barang, 
                 tabel_barang.harga_barang, tabel_jenis_barang.jenis_barang, 
                 tabel_barang.stock_barang, tabel_barang.gambar 
